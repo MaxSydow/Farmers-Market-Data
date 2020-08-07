@@ -7,7 +7,7 @@ Max Sydow
 ## Overview
 Farmers markets appear all over the US, and can provide an alternative to traditional grocery stores for obtaining fresh food and other services from local sources. The aim of this project is to explore accessibility to such markets. Python packages such as Pandas and Numpy were used in a Jupyter notebood to analyze the data sets.  Matplotlib was used for visualization, and Sklearn was used for linear regression.  County level data is examined to answer questions such as:
 
-1.  [Which counties have the highest and lowest concentration of farmers markets?](#Question-1.)
+1.  [Which counties have the highest and lowest concentration of farmers markets?](#Farmers-Market-Data/FarmersMarkets.ipynb/Question-1.)
 2.  Does income relate to accessibility to markets?
 3.  Is population density related to concentration of farmers markets?
 3.  Does higher average income influence the number and type of offerings?
