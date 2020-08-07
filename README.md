@@ -26,3 +26,45 @@ The county data set includes more general demographic information like populatio
 https://en.wikipedia.org/wiki/List_of_United_States_counties_by_per_capita_income
 
 The data set csv's used here were downloaded directly from the data tab on the Kaggle site.
+
+
+## Data Summary
+
+The Farmers Market data set has 8804 rows and 59 columns.  The county set has 3233 rows and 8 columns.  Duplicate and null values for county were found in each data set and were removed.  An integer was used as an identifer for county in the county dataset, but some counties had a '—' instead.  It was found that these counties are in US territories.  They were also removed to allow use of _number_ as a unique identifier, thus only US states were considered.  The 2 sets were joined on the _State_ column that both had in common.  A new column, _StateCounty_, was created to concatenate _State_ and _County_ in order to make rows in this column consistent across the joined set.  
+
+## Highest/Lowest Concentration of Farmers Market by County.
+
+The top 10 counties with the most farmers markets are:
+
+- California, Los Angeles       128
+- Illinois, Cook                110
+- Massachusetts, Middlesex       60
+- Massachusetts, Worcester       59
+- California, San Diego          49
+- Pennsylvania, Philadelphia     49
+- Minnesota, Hennepin            48
+- Washington, King               44
+- Hawaii, Honolulu               43
+- Wisconsin, Dane                42
+
+The bottom 10 counties with the least farmers markets are:
+
+- South Carolina, Dorchester    1
+- Georgia, Ware                 1
+- Oklahoma, Muskogee            1
+- Arkansas, Yell                1
+- Illinois, Edgar               1
+- Texas, Jasper                 1
+- Kentucky, Metcalfe            1
+- Mississippi, Union            1
+- Georgia, Jasper               1
+- North Dakota, Wells           1
+
+The counties with the most farmers markets seem to be relatively highly populated, so I wanted to see if the most populated counties indeed do have higher numbers of farmers markets.  Comparing tables of counties ordered by population and by count of farmers markets (_FMID_count) can shed some light.
+
+Ordered by Population
+
+| StateCounty | Population | FMID_count |
+| ---------------------- |:-----:|
+| California, Los Angeles| 9893481 | 128 |
+| Illinois, Cook      | 5212372 | 110 |
