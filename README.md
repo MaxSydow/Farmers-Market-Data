@@ -63,18 +63,20 @@ The bottom 10 counties with the least farmers markets are:
 The counties with the most farmers markets seem to be relatively highly populated, so I wanted to see if the most populated counties indeed do have higher numbers of farmers markets.  Comparing tables of counties ordered by population and by count of farmers markets (_FMID_count_) can shed some light.
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><th>Ordered by Population </th><th>Ordered by FMID_count</th></tr>
 <tr><td>
 
-|Table 1| Middle | Table 2|
+|StateCounty | Population | FMID_count|
 |--|--|--|
-|a| not b|and c |
+|California, Los Angeles| 9893481|128 |
+|Illinois, Cook |5212372| 110|
 
 </td><td>
 
-|b|1|2|3| 
+|StateCounty| Population | FMID_count | 
 |--|--|--|--|
-|a|s|d|f|
+|California, Los Angeles| 9893481|128 |
+|Illinois, Cook |5212372| 110|
 
 </td></tr> </table>
 
