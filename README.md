@@ -60,11 +60,19 @@ The bottom 10 counties with the least farmers markets are:
 - Georgia, Jasper               1
 - North Dakota, Wells           1
 
-The counties with the most farmers markets seem to be relatively highly populated, so I wanted to see if the most populated counties indeed do have higher numbers of farmers markets.  Comparing tables of counties ordered by population and by count of farmers markets (_FMID_count) can shed some light.
+The counties with the most farmers markets seem to be relatively highly populated, so I wanted to see if the most populated counties indeed do have higher numbers of farmers markets.  Comparing tables of counties ordered by population and by count of farmers markets (_FMID_count_) can shed some light.
 
 Ordered by Population
 
-| StateCounty | Population | FMID_count |
-| ---------------------- |:-----:|
-| California, Los Angeles| 9893481 | 128 |
-| Illinois, Cook      | 5212372 | 110 |
+| StateCounty                | Population | FMID_count |
+| -------------------------- |:----------:|:----------:|
+| California, Los Angeles    | 9893481    | 128        |
+| Illinois, Cook             | 5212372    | 110        |
+| Texas, Harris              | 4182285    | 16         |
+| Arizona, Maricopa          | 3889161    | 40         |
+| California, San Diego      | 3138265    | 49         |
+| California, Orange         | 3051771    | 27         |
+| Florida, Miami-Dade        | 2549075    | 33         |
+| New York, Kings            | 2539789    | 37         |
+| Texas, Dallas              | 2412481    | 11         |
+| New York, Queens           | 2256400    | 18         |
