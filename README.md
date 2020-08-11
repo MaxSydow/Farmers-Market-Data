@@ -1,6 +1,6 @@
 # A Demographic Exploration of Farmers Markets in the US
 
-Udacity Data Science Project - Project 1
+Udacity Data Science Nanodegree - Project 1
 Max Sydow
 
 
@@ -96,17 +96,7 @@ The counties with the most farmers markets seem to be relatively highly populate
 
 </td></tr> </table>
 
-Ordered by Population
 
-| StateCounty                | Population | FMID_count |                        | StateCounty                | Population | FMID_count |
-| -------------------------- |:----------:|:----------:|                        |:--------------------------:|:----------:|:----------:|
-| California, Los Angeles    | 9893481    | 128        |                        | California, Los Angeles    | 9893481    | 128        |
-| Illinois, Cook             | 5212372    | 110        |                        | Illinois, Cook             | 5212372    | 110        |
-| Texas, Harris              | 4182285    | 16         |                        | Massechusetts, Middlesex   | 1522533    | 60         |
-| Arizona, Maricopa          | 3889161    | 40         |                        | Massechusetts, Worcester   | 802688     | 59         |
-| California, San Diego      | 3138265    | 49         |                        | Pennsylvania, Philadelphia | 1536704    | 49         |
-| California, Orange         | 3051771    | 27         |                        | California, San Diego      | 3138265    | 49         |
-| Florida, Miami-Dade        | 2549075    | 33         |                        | Minnesota, Hennepin        | 1170623    | 48         |
-| New York, Kings            | 2539789    | 37         |                        | Washington, King           | 1974567    | 44         |
-| Texas, Dallas              | 2412481    | 11         |                        | Hawaii, Honolulu           | 964678     | 43         |
-| New York, Queens           | 2256400    | 18         |                        | Wisconsin, Dane            | 496762     | 42         |
+It appears that only 3 of the most populous counties overlap with the list of counties with the highest number of farmers markets. So it would seem that there are a lot of highly populated counties with a relatively low concentration of farmers markets. Harris county, Texas appears to be the most noticable outlier in this regard. However, counties with the most farmers markets are still fairly large with most having populations close to or above 1 million.  Dane county Wisconsin sticks out as being less populated in this list.  There is an absence of mainland US southern states here.  Perhaps farmers markets are more popular on the coasts and upper midwest.  King, Hennepin, Dane, and Worcester counties all contain cities that would describe themselves as more educated and liberal leaning.  Further investigation might show that this is more than a coincidence, but education levels and political affiliation and other such lifestyle characteristics are not included in this data.  
+
+More general population trends will be explored later.
