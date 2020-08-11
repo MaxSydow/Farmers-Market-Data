@@ -70,13 +70,29 @@ The counties with the most farmers markets seem to be relatively highly populate
 |--|--|--|
 |California, Los Angeles| 9893481|128 |
 |Illinois, Cook |5212372| 110|
+| Texas, Harris | 4182285 | 16 |
+| Arizona, Maricopa | 3889161 | 40 | 
+| California, San Diego | 3138265 | 49 |
+| California, Orange | 3051771 | 27 |
+| Florida, Miami-Dade | 2549075 | 33 | 
+| New York, Kings | 2539789 | 37 |
+| Texas, Dallas | 2412481 | 11 |
+| New York, Queens | 2256400 | 18 |
 
 </td><td>
 
 |StateCounty| Population | FMID_count | 
-|--|--|--|--|
+|--|--|--|
 |California, Los Angeles| 9893481|128 |
 |Illinois, Cook |5212372| 110|
+| Massechusetts, Middlesex | 1522533 | 60 |
+| Massechusetts, Worcester | 802688 | 59 |
+| Pennsylvania, Philadelphia | 1536704 | 49 |
+| California, San Diego | 3138265 | 49 |
+| Minnesota, Hennepin | 1170623 | 48 |
+| Washington, King | 1974567 | 44 |
+| Hawaii, Honolulu | 964678 | 43 |
+| Wisconsin, Dane  | 496762 | 42 |
 
 </td></tr> </table>
 
